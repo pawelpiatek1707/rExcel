@@ -6,4 +6,5 @@ if __name__ == '__main__':
 
     save_data_controller = SaveDataController("weather.xlsx")
     save_data_controller.save_base_statistics(forecast)
+    save_data_controller.save_chart()
     save_data_controller.save_changes()
